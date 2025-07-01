@@ -96,7 +96,7 @@
         };
 
         Mac_layer {
-            display-name = "MacOS";
+            display-name = "你";
             bindings = <
 &trans        &trans  &trans  &trans  &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &trans  &trans  &trans  &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
