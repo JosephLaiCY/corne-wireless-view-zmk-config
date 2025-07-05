@@ -62,10 +62,10 @@
         NUM {
             display-name = "Number";
             bindings = <
-&kp ESCAPE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT    &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&trans      &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp NUMBER_6  &kp NUMBER_7   &kp N8        &kp N9                &kp NUMBER_0           &trans
-&trans      &trans           &trans        &trans        &trans        &trans         &trans        &trans         &trans        &trans                &trans                 &trans
-                                           &trans        &trans        &trans         &trans        &mo 4          &trans
+&kp ESCAPE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT    &kp CARET             &kp AMPERSAND          &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+&trans      &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp NUMBER_6          &kp NUMBER_7           &kp N8             &kp N9                &kp NUMBER_0           &trans
+&trans      &kp K_UNDO       &kp K_REDO    &kp PLUS      &kp UNDER     &kp MINUS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &trans                &trans                 &trans
+                                           &trans        &trans        &trans         &trans                &mo 4                  &trans
             >;
         };
 
