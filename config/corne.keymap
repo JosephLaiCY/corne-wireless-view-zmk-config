@@ -89,20 +89,20 @@
         NUM {
             display-name = "Number";
             bindings = <
-&kp ASTERISK  &kp MINUS      &kp N7  &kp N8     &kp N9     &kp PERCENT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DELETE      &kp BACKSPACE
-&kp SLASH     &kp BACKSPACE  &kp N4  &kp N5     &kp N6     &kp ENTER      &kp LEFT              &kp DOWN               &kp UP_ARROW      &kp RIGHT          &msc SCRL_UP    &kp DOLLAR
-&kp EQUAL     &kp N0         &kp N1  &kp N2     &kp N3     &kp DOT        &kp HOME              &kp PAGE_DOWN          &kp PG_UP         &kp END            &msc SCRL_DOWN  &kp TILDE
+&kp ASTERISK  &kp MINUS      &kp N7  &kp N8     &kp N9     &kp PERCENT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DELETE  &kp BACKSPACE
+&kp SLASH     &kp BACKSPACE  &kp N4  &kp N5     &kp N6     &kp ENTER      &kp LEFT              &kp DOWN               &kp UP_ARROW      &kp RIGHT          &kp N0      &kp DOLLAR
+&kp EQUAL     &kp N0         &kp N1  &kp N2     &kp N3     &kp DOT        &kp HOME              &kp PAGE_DOWN          &kp PG_UP         &kp END            &trans      &trans
                                      &kp TILDE  &kp SPACE  &kp N0         &kp BSLH              &trans                 &trans
             >;
         };
 
-        system {
-            display-name = "SYS";
+        functionMouse {
+            display-name = "mouse";
             bindings = <
-&kp F1         &kp F2     &kp F3    &kp F4     &kp F5          &kp F6             &kp F7        &kp F8          &kp F9        &kp F10          &kp F11       &kp F12
-&kp LG(LS(S))  &kp EXCL   &kp AT    &kp POUND  &kp DOLLAR      &kp PERCENT        &bt BT_CLR    &kp C_PREVIOUS  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_NEXT    &trans
-&trans         &kp CARET  &kp AMPS  &kp ASTRK  &kp LEFT_BRACE  &kp RIGHT_BRACE    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4  &trans
-                                    &trans     &trans          &trans             &trans        &trans          &trans
+&kp F1         &kp F2     &kp F3    &kp F4     &kp F5          &kp F6             &kp F7          &kp F8          &kp F9        &kp F10          &kp F11         &kp F12
+&kp LG(LS(S))  &kp EXCL   &kp AT    &kp POUND  &kp DOLLAR      &kp PERCENT        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &msc SCRL_UP    &trans
+&trans         &kp CARET  &kp AMPS  &kp ASTRK  &kp LEFT_BRACE  &kp RIGHT_BRACE    &mkp LCLK       &mkp RCLK       &trans        &msc SCRL_RIGHT  &msc SCRL_DOWN  &msc SCRL_RIGHT
+                                    &trans     &trans          &trans             &trans          &trans          &trans
             >;
         };
 
