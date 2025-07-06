@@ -62,20 +62,20 @@
         NUM {
             display-name = "Number";
             bindings = <
-&kp ESCAPE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT    &kp CARET             &kp AMPERSAND          &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&trans      &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp NUMBER_6          &kp NUMBER_7           &kp N8             &kp N9                &kp NUMBER_0           &trans
-&trans      &kp K_UNDO       &kp K_REDO    &kp PLUS      &kp MINUS     &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &trans                &trans                 &trans
-                                           &trans        &trans        &trans         &trans                &mo 4                  &trans
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT    &kp CARET             &kp AMPERSAND          &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+&trans     &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp NUMBER_6          &kp NUMBER_7           &kp N8             &kp N9                &kp NUMBER_0           &trans
+&trans     &kp K_UNDO       &kp K_REDO    &kp PLUS      &kp MINUS     &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &trans                &trans                 &trans
+                                          &trans        &trans        &trans         &trans                &mo 4                  &trans
             >;
         };
 
         ARROW {
             display-name = "Arrow";
             bindings = <
-&kp ESCAPE  &trans  &kp HOME        &kp UP_ARROW  &kp END    &trans                  &trans                 &kp PAGE_UP     &msc SCRL_UP    &kp PAGE_DOWN    &trans  &kp BACKSLASH
-&trans      &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
-&kp LSHFT   &trans  &trans          &trans        &trans     &trans                  &trans                 &trans          &trans          &trans           &trans  &kp RSHFT
-                                    &trans        &mo 3      &trans                  &trans                 &trans          &trans
+&kp ESCAPE  &trans  &kp HOME        &kp UP_ARROW  &kp END    &trans    &trans  &kp PAGE_UP     &msc SCRL_UP    &kp PAGE_DOWN    &trans           &kp BACKSLASH
+&trans      &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans    &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans           &trans
+&kp LSHFT   &trans  &trans          &trans        &trans     &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP     &mmv MOVE_RIGHT  &kp RSHFT
+                                    &trans        &mo 3      &trans    &trans  &trans          &trans
             >;
         };
 
