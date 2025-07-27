@@ -87,10 +87,10 @@
         NUM {
             display-name = "Number";
             bindings = <
-&trans  &trans  &kp N7  &kp N8    &kp N9      &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DELETE  &trans
-&trans  &trans  &kp N4  &kp N5    &kp N6      &trans    &kp LEFT              &kp DOWN               &kp UP_ARROW      &kp RIGHT          &kp PLUS    &trans
-&trans  &trans  &kp N1  &kp N2    &kp N3      &trans    &kp HOME              &kp PAGE_DOWN          &kp PG_UP         &kp END            &kp ASTRK   &trans
-                        &kp PLUS  &kp PERIOD  &kp N0    &kp LS(LC(DELETE))    &kp LS(LG(S))          &trans
+&trans  &trans  &kp N7  &kp N8    &kp N9      &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE   &trans
+&trans  &trans  &kp N4  &kp N5    &kp N6      &trans    &kp LEFT              &kp DOWN               &kp UP_ARROW      &kp RIGHT          &kp RIGHT_BRACE  &trans
+&trans  &trans  &kp N1  &kp N2    &kp N3      &trans    &kp HOME              &kp PAGE_DOWN          &kp PG_UP         &kp END            &kp ASTRK        &trans
+                        &kp PLUS  &kp PERIOD  &kp N0    &kp LC(LA(DELETE))    &kp LS(LG(S))          &trans
             >;
         };
 
