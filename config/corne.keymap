@@ -40,10 +40,11 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
+            tapping-term-ms = <250>;
+            flavor = "tap-unless-interrupted";
             hold-trigger-key-positions = <13 14 15 16 17 18 19 20 21 22 38 37 36 39 40 41 0 1 2 3 4 5 29 28 27 26 25 24 12 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35>;
             hold-trigger-on-release;
+            retro-tap;
         };
     };
 
@@ -97,10 +98,10 @@
         functionMouse {
             display-name = "mouse";
             bindings = <
-&trans  &trans  &kp F7  &kp F8    &kp F9  &kp F12    &mkp MB5   &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans  &trans
-&trans  &trans  &kp F4  &kp F5    &kp F6  &kp F11    &mkp MB4   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &kp F1  &kp F2    &kp F3  &kp F10    &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &trans  &trans
-                        &kp LALT  &mo 3   &trans     &mkp LCLK  &mkp RCLK       &trans
+&trans  &kp C_VOLUME_UP    &kp F7  &kp F8    &kp F9  &kp F12    &mkp MB5   &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans  &trans
+&trans  &kp C_VOLUME_DOWN  &kp F4  &kp F5    &kp F6  &kp F11    &mkp MB4   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &kp K_MUTE         &kp F1  &kp F2    &kp F3  &kp F10    &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &trans  &trans
+                                   &kp LALT  &mo 3   &trans     &mkp LCLK  &mkp RCLK       &trans
             >;
         };
 
