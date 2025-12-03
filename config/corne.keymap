@@ -108,15 +108,15 @@
             >;
         };
 
-        STENO {
+        Plover {
             bindings = <
-&trans  &kp S   &kp T   &kp P   &kp H   &kp ASTRK    &kp ASTRK  &kp F   &kp P   &kp L   &kp T   &kp D
-&trans  &kp S   &kp K   &kp W   &kp R   &kp ASTRK    &kp ASTRK  &kp R   &kp B   &kp G   &kp S   &kp Z
-&trans  &trans  &trans  &trans  &trans  &trans       &trans     &trans  &trans  &trans  &trans  &to 0
-                        &trans  &kp A   &kp O        &kp E      &kp U   &trans
+&to 0   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &kp C   &kp V     &kp N   &kp M   &trans
             >;
 
-            label = "STENO";
+            label = "Plover";
         };
     };
 };
