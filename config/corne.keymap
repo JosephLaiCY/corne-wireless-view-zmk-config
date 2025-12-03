@@ -110,7 +110,7 @@
 
         Plover {
             bindings = <
-&to 0   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp RIGHT_BRACKET
+&to 0   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACKET
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp SINGLE_QUOTE
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &kp C   &kp V     &kp N   &kp M   &trans
