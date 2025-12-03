@@ -103,8 +103,8 @@
             bindings = <
 &kp F1      &kp F2      &kp F3      &kp F4         &kp F5   &kp F6     &mkp MB5   &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans  &trans
 &kp F7      &kp F8      &kp F9      &kp F10        &kp F11  &kp F12    &mkp MB4   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&bt BT_PRV  &bt BT_NXT  &bt BT_CLR  &kp LG(LS(S))  &trans   &trans     &trans     &trans          &trans          &trans           &trans  &trans
-                                    &tog 3         &trans   &trans     &mkp LCLK  &mkp RCLK       &trans
+&bt BT_PRV  &bt BT_NXT  &bt BT_CLR  &kp LG(LS(S))  &trans   &trans     &trans     &trans          &trans          &trans           &trans  &tog 3
+                                    &trans         &trans   &trans     &mkp LCLK  &mkp RCLK       &trans
             >;
         };
 
@@ -112,9 +112,11 @@
             bindings = <
 &trans  &kp S   &kp T   &kp P   &kp H   &kp ASTRK    &kp ASTRK  &kp F   &kp P   &kp L   &kp T   &kp D
 &trans  &kp S   &kp K   &kp W   &kp R   &kp ASTRK    &kp ASTRK  &kp R   &kp B   &kp G   &kp S   &kp Z
-&trans  &trans  &trans  &trans  &trans  &trans       &trans     &trans  &trans  &trans  &trans  &trans
-                        &tog 0  &kp A   &kp O        &kp E      &kp U   &trans
+&trans  &trans  &trans  &trans  &trans  &trans       &trans     &trans  &trans  &trans  &trans  &tog 0
+                        &trans  &kp A   &kp O        &kp E      &kp U   &trans
             >;
+
+            label = "STENO";
         };
     };
 };
