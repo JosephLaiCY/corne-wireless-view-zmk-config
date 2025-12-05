@@ -73,6 +73,46 @@
             bindings = <&kp LC(LA(DELETE))>;
             key-positions = <29 30>;
         };
+
+        Home {
+            bindings = <&kp HOME>;
+            key-positions = <7 19>;
+        };
+
+        end {
+            bindings = <&kp END>;
+            key-positions = <20 8>;
+        };
+
+        lshft {
+            bindings = <&kp LSHFT>;
+            key-positions = <15 16>;
+        };
+
+        rshft {
+            bindings = <&kp RSHFT>;
+            key-positions = <19 20>;
+        };
+
+        lctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <16 14>;
+        };
+
+        rctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <19 21>;
+        };
+
+        page_up {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <4 16>;
+        };
+
+        page_down {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <3 15>;
+        };
     };
 
     keymap {
@@ -93,7 +133,7 @@
             bindings = <
 &kp GRAVE  &trans  &kp N7  &kp N8  &kp N9   &kp PLUS     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE   &trans
 &trans     &trans  &kp N4  &kp N5  &kp N6   &kp ASTRK    &kp LEFT_ARROW        &kp DOWN               &kp UP_ARROW      &kp RIGHT          &kp RIGHT_BRACE  &trans
-&trans     &trans  &kp N1  &kp N2  &kp N3   &kp SLASH    &kp HOME              &kp PAGE_DOWN          &kp PG_UP         &kp END            &trans           &trans
+&trans     &trans  &kp N1  &kp N2  &kp N3   &kp SLASH    &trans                &trans                 &trans            &trans             &trans           &trans
                            &trans  &kp DOT  &kp N0       &trans                &trans                 &trans
             >;
         };
@@ -103,20 +143,9 @@
             bindings = <
 &kp F1      &kp F2      &kp F3      &kp F4         &kp F5   &kp F6     &mkp MB5   &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans  &trans
 &kp F7      &kp F8      &kp F9      &kp F10        &kp F11  &kp F12    &mkp MB4   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&bt BT_PRV  &bt BT_NXT  &bt BT_CLR  &kp LG(LS(S))  &trans   &trans     &trans     &trans          &trans          &trans           &trans  &tog 3
+&bt BT_PRV  &bt BT_NXT  &bt BT_CLR  &kp LG(LS(S))  &trans   &trans     &trans     &trans          &trans          &trans           &trans  &trans
                                     &trans         &trans   &trans     &mkp LCLK  &mkp RCLK       &trans
             >;
-        };
-
-        Plover {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACKET
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp SINGLE_QUOTE
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
-                        &trans  &kp C   &kp V     &kp N   &kp M   &trans
-            >;
-
-            label = "Plover";
         };
     };
 };
