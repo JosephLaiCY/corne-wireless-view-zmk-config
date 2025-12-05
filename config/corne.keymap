@@ -91,10 +91,10 @@
         NUM {
             display-name = "Number";
             bindings = <
-&kp GRAVE   &trans  &kp N7  &kp N8     &kp N9   &kp PLUS     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE   &trans
-&kp TAB     &trans  &kp N4  &kp N5     &kp N6   &kp ASTRK    &kp LEFT_ARROW        &kp DOWN               &kp UP_ARROW      &kp RIGHT          &kp RIGHT_BRACE  &trans
-&kp DELETE  &trans  &kp N1  &kp N2     &kp N3   &kp SLASH    &kp HOME              &kp PAGE_DOWN          &kp PG_UP         &kp END            &trans           &trans
-                            &kp LSHFT  &kp DOT  &kp N0       &trans                &trans                 &trans
+&kp GRAVE  &trans  &kp N7  &kp N8  &kp N9   &kp PLUS     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE   &trans
+&trans     &trans  &kp N4  &kp N5  &kp N6   &kp ASTRK    &kp LEFT_ARROW        &kp DOWN               &kp UP_ARROW      &kp RIGHT          &kp RIGHT_BRACE  &trans
+&trans     &trans  &kp N1  &kp N2  &kp N3   &kp SLASH    &kp HOME              &kp PAGE_DOWN          &kp PG_UP         &kp END            &trans           &trans
+                           &trans  &kp DOT  &kp N0       &trans                &trans                 &trans
             >;
         };
 
@@ -110,9 +110,9 @@
 
         Plover {
             bindings = <
-&to 0   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACKET
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACKET
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp SINGLE_QUOTE
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
                         &trans  &kp C   &kp V     &kp N   &kp M   &trans
             >;
 
